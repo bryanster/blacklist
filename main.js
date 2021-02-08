@@ -1,5 +1,5 @@
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-var fortigateapi = require("./FortigateApi")
+var fortigateapi = require(".fortigatejs")
 var axios = require('axios');
 var fs = require('fs')
 
